@@ -25,15 +25,14 @@ The following script must be run to reproduce results for MNIST.
 The following script must be run to reproduce results for Fashion-MNIST.
 
 
-    ```python
+
     python3 train_fmnist.py --seed 0 --noise_rate 0.22 --epochs_retrain 50
-    ```
+    
 
 
 ### SVHN
 The following script must be run to reproduce results for SVHN.
 
 
-    ```python
+
     python3 train_svhn.py --seed 0 --noise_rate 0.22 --epochs_retrain 50
-    ```
