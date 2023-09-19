@@ -16,9 +16,8 @@ All datasets must be downloaded through Pytorch. We test each dataset on all noi
 The following script must be run to reproduce results for MNIST.
 
 
-    ```python
+
     python3 train_mnist.py --seed 0 --noise_rate 0.22 --epochs_retrain 50
-    ```
 
 
 ### Fashion-MNIST
