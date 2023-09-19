@@ -14,18 +14,26 @@ We use 22%, 32%, 42%, and 52% noise in our method, but 20%, 30%, 40%, and 50% no
 All datasets must be downloaded through Pytorch. We test each dataset on all noise levels {0.22, 0.32, 0.42, 0.52} on three different seeds {0, 1, 2).
 ### MNIST
 The following script must be run to reproduce results for MNIST.
-    '''python
+
+
+    ```python
     python3 train_mnist.py --seed 0 --noise_rate 0.22 --epochs_retrain 50
-    '''
+    ```
+
 
 ### Fashion-MNIST
-The following script must be run to reproduce results for Fashion-MNIST
-    '''python
+The following script must be run to reproduce results for Fashion-MNIST.
+
+
+    ```python
     python3 train_fmnist.py --seed 0 --noise_rate 0.22 --epochs_retrain 50
-    '''
+    ```
+
 
 ### SVHN
-The following script must be run to reproduce results for SVHN
-    '''python
+The following script must be run to reproduce results for SVHN.
+
+
+    ```python
     python3 train_svhn.py --seed 0 --noise_rate 0.22 --epochs_retrain 50
-    '''
+    ```
