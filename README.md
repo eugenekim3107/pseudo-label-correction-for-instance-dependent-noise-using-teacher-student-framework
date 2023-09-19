@@ -1,6 +1,6 @@
 # Pseudo-Label Correction for Instance-Dependent Noise using Teacher-Student Framework
 
-This is the official repository for the paper Pseudo-Label Correction for Instance-Dependent Noise using Teacher-Student Framework.
+This is the official repository for the paper [Pseudo-Label Correction for Instance-Dependent Noise using Teacher-Student Framework](https://www.dropbox.com/scl/fi/o8be5iyyejdwhvxphhocc/Pseudo_Label_Correction_for_Instance_Dependent_Noise_Using_Teacher_Student_Framework.pdf?rlkey=ircnb5eoyny8a9b3ef6r0d70o&dl=0).
 The following sections provide information on replicating the experiments. We test our method on three different datasets MNIST, FashionMNIST, and SVHN. Please download all files in the repository.
 
 ## 1. Instance-Dependent Noise (IDN) Generation
