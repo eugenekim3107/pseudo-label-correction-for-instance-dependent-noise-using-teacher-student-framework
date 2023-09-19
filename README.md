@@ -11,7 +11,7 @@ We adopted the IDN generation proposed by Chen et al.'s [Beyond Class-Conditiona
 We use 22%, 32%, 42%, and 52% noise in our method, but 20%, 30%, 40%, and 50% noise for existing methods. This is done to accommodate for methods that do not need a small set of clean data and ensure fair comparisons.
 
 ## 2. Pseudo-Label Correction (P-LC) Experiments
-All datasets must be downloaded through Pytorch. We test each dataset on all noise levels {0.22, 0.32, 0.42, 0.52} on three different seeds {0, 1, 2).
+All datasets must be downloaded through Pytorch. We test each dataset on all noise levels {0.22, 0.32, 0.42, 0.52} on three different seeds {0, 1, 2}.
 ### MNIST
 The following script must be run to reproduce results for MNIST.
 
